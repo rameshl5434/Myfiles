@@ -1,0 +1,20 @@
+1.What is package in java?
+package is a namespace that organizes a set of related classes and interfaces. 
+packages as being similar to different folders on your computer
+Package names are written in all lower case.
+We use import keyword to use packages.
+
+2.How many classes are stores in a package?
+It not fixed
+
+3.Which rule will be in naming packages?
+we use package keyword to create package.
+Package name contains lowe case letters only.
+they may be written as package.com.example.xxxx.yyy.PackageName.
+
+4.Can we have several classes with same name but iin different packages?
+Yes
+
+package name will have all lower case.
+
+

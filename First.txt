@@ -1,0 +1,40 @@
+1.CLASS:
+==========
+ It is a template or blueprint from which objects are created. 
+It is a logical entity. It can't be physical.
+A class in Java can contain:
+fields
+methods
+constructors
+blocks
+nested class and interface.
+=========================================
+2.How to create A CLASS
+New File from the menu at the top
+At the New File screen, select "Java Classes" for Category, "Java Class" for the File Type and click the "Next" button
+---------------------------------
+By using keyword called "Class"
+class ClassName{
+- - - - - 
+}
+Name of class name will starts with CapsLock
+============================================
+3.Need of Classes
+Hence we can't do OO programming without classes. ... A class is a blueprint for creating an object. 
+Objects are the core of an Object Oriented Programming language.
+=================================================
+4.Can we write code outside the class
+No
+You start the application with java MyClass
+The JVM loads this class ("classloading")
+The JVM starts a new thread (the main thread)
+The JVM invokes the method with the signature public static void main(String[])
+=============================================
+5.What parts can we define inside the class
+We can define methods,member variables,and classes inside a class.
+================================
+6.Which access specefier can we use when we define a class
+Public and Private
+Private is used for inner classes.
+
+

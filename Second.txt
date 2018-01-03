@@ -1,0 +1,15 @@
+What is Object in java?
+Object is an instance of class.
+Objects have states(Having Properties) and behaviors(Some actions) and Unique property to identify.
+=========================================
+Difference between Object and Class
+An object is  an "instance" of a class.
+ An object has a state in which all of its properties have values where as class defines properties but when obj is created they should be assigned to same values.
+
+================================================
+How to create an Object in java
+By new keyword- classname obj = new classname();
+By newInstance() method- using class.forName() and newInstance()
+By clone() method-
+By deserialization
+By factory method etc.

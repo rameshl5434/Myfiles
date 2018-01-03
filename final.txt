@@ -1,0 +1,55 @@
+1.When and Why we use extends keyword ?
+inherit the feature of parent class and we can add extra feature also in child class as well
+Extends means that you are creating a subclass of the class you are extending.
+and implements means you are using elements of parent Interface in child class.
+
+2.how inheritance will helps us
+it reduces the code by reusabity of parent class code.
+provides polymorphism with methodOverriding.
+
+3.Multiple Inheritance and does java support multiple inheritance?
+When one class extends more than one classes then this is called multiple inheritance. 
+Java doesnot support Multiple Inheritance because to avoid amiguity.
+It causes Diamond Problem.
+Exp:Class D extends both classes B & C.
+Now lets assume we have a method in class A and class B & C overrides that method in their own way.
+ Wait!! here the problem comes – Because D is extending both B & C so if D wants to use the same method
+ which method would be called (the overridden method of B or the overridden method of C).
+ Ambiguity. That’s the main reason why Java doesn’t support multiple inheritance.
+
+4.When and Why we use Implements keyword ?
+Implements is used to inherit the elements of parent interface into child class.
+Implements is used for inheritance in Inteface which have only declarations.
+
+5.How many interfaces does a class can implement
+A class can implement more than one interface.but A Java class can only extend one parent class.
+
+6.Why and when do we need abstract classes?
+It may or may not include abstract methods. 
+Abstract classes cannot be instantiated, but they can be subclassed.
+When an abstract class is subclassed, the subclass usually provides implementations for all of the abstract methods in its parent class.
+ However, if it does not, then the subclass must also be declared abstract.
+
+7.Can abstract class has a constructor
+Yes
+We can acess it by using "super" keyword.
+
+8.when constructor from abstract class is called
+
+
+9.Diff between super and this
+"Super" is a reference variable which is used to call the super class member from sub class.
+where as "this" is also reference variable which is used to call the current class object or member.
+"This" keyword is used to access its own instance properties (since it can only access instance variables and methods.
+"Super" is used to call immediate base class constructours.
+It is used to basically initialize the parent class. 
+"Super" statement should always be first statement. 
+
+10.What do you know about Object clas in java and when we use equals method in java
+Object is the super class of all classes in java.
+it is in java.lang package.
+we use equals method  to compare two objects.
+Hashcode() also checks the objects, it checks references,and equals checks boths hasghcode and values.
+so if we use equals() then  override the hashCode method is done.	
+hashcode and equals are methods of class Object.
+

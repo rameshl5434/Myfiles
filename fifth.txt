@@ -1,0 +1,47 @@
+What is the difference between primitive and reference type in java?
+Primitive types are-int,char,float,double,boolean,short,long.
+Reference types- any instantiable class as well as arrays:String,Scanner,Random,Die,int[],String[],etc		
+differences:
+1.Default value and Null
+2.What do they store?
+         primitive types stores values but reference type stores handle to object in heap space.
+3.Assigning value using Assignment Variable (=)
+ int x=10;
+int y=x //now both x and y values are 10
+
+List<String> list = new ArrayList(2); 
+List<String> copy = list; //reference of copy changes to list ie..both list and copy shares same reference
+		   // Here only handle is copied but not objects.
+
+4.(==) operator
+	int x=20,y=20;
+	(x==y)//checks if both  values are equal or not
+	String JPY = new String("JPY");
+	 String YEN = new String("JPY");
+	if(JPY == YEN){ }//checks references so not executed
+	if(JPY.equals(YEN)){}//executed 
+5.Stack(primitive type) and Heap(Refenece Variable)
+
+2.how many primitive data types are there in java
+there are 8 primitive types in java
+they are int,short,long,char,float,double,boolean,byte.
+
+3.Can you name Standard primitive types in java
+byte	8 bits	-128 .. 127		
+short	16 bits	-32,768 .. 32,767
+int	32 bits	-2,147,483,648 .. 2,147,483,647
+long	64 bits	-9,223,372,036,854,775,808 .. 9,223,372,036,854,775,807
+float	32 bits	3.40282347 x 1038, 1.40239846 x 10-45
+double	64 bits	1.7976931348623157 x 10308, 4.9406564584124654 x 10-324
+boolean	1   bit	true,false(default)
+char	16 bits	Uses Unicode and \u0000(default).
+
+4.How to define reference in java ? what is null reference?
+To declare a variable using a reference type, you simply list the class name as the data type.
+Ball b; // "b" reference variable and  Ball is  the class.
+Reference variable may be final.
+
+Null is the default value of reference-type variables. It is not for primitive types.
+null can be assigned to any variable of a reference type (that is, a non-primitive type) to indicate that the variable does not refer to any object or array
+Ball b =null;
+

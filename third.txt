@@ -1,0 +1,32 @@
+1.How to define a constructor.
+Basically constructor is a method in a class which having the name as same as class.
+It doesn't have any return types but have access specifiers-public,private(obj is created inside class),protected.
+A constructor in Java is the initiator of an object.
+anytime you create a new instance of a class, a constructor is invoked.
+If you do not create a constructor, the default constructor (no arguments, no other real code) is created for you by Java.
+syntax:class Cls{
+	cls()
+	{
+	-------------
+	-------------
+`	}
+	}
+2.How many constructours can be in class
+You can define as many constructors as you need.
+ When a Java class contains multiple constructors, we say that the constructor is overloaded (comes in multiple versions). 
+This is what constructor overloading means, that a Java class contains multiple constructors.
+
+Types of constructors:
+1.Default Constructor.
+2.No-args Constructor.
+3.paramaterised Constructor.
+
+
+3.Which access specifiers we use with constructour
+we can use 3 specifiers.
+public private protected
+public -access from anywhere.
+private-object is created inside the same class and should be accessed from there ie.. not from outside the class.
+protected-can be accessed from its own class, its subclasses, all other classes belonging to the same package and subclasses.
+
+
